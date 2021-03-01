@@ -1,0 +1,1 @@
+docker run --name hadoop --rm -d -p 9870:9870 -p 8088:8088 -v "%cd%"/workspace:"/home/hdoop/workspace" -v "%cd%"/dfsdata:"/home/hdoop/dfsdata" -v "%cd%"/hivedata:"/home/hdoop/hivedata" saihemanthbr/hadoop

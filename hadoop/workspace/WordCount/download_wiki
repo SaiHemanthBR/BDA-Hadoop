@@ -1,0 +1,37 @@
+#!/usr/bin/python3
+
+# Example: ./download_wiki Elon Musk
+# Example: ./download_wiki Steve Jobs
+
+# Output path: input/large/{article title}.txt
+
+import requests, os, sys
+
+if len(sys.argv) == 1:
+    print("No article title found.")
+    exit(1)
+
+title = "_".join(sys.argv[1:])
+
+print(f"Getting Wiki Article titled: {title}")
+response = requests.get(
+    'https://en.wikipedia.org/w/api.php',
+    params={
+        'action': 'query',
+        'format': 'json',
+        'titles': title,
+        'prop': 'extracts',
+        'explaintext': True,
+    }
+).json()
+page = next(iter(response['query']['pages'].values()))
+
+if 'extract' not in page or page['extract'] is None:
+    print("Unable to get Article.")
+    exit(1)
+
+path = os.path.join('input', 'large', f"{title}.txt")
+with open(path, 'w') as f:
+    f.write(page['extract'])
+    f.flush()
+print(f"Article saved at {path}")

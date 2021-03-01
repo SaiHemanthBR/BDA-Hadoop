@@ -1,0 +1,5 @@
+1	Hemanth	100000
+2	Nikhil	500000
+3	Hitesh	436987
+4	Bhargav	135234
+5	Rishi	769823

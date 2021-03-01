@@ -1,0 +1,16 @@
+jupyter
+R
+SASUniversityEdition
+.DS_Store
+.vscode
+**/dfsdata
+**/node_modules
+**/api/services/*.json
+**/.env
+**/build
+**/.build
+**/jar
+**/.jar
+**/tarballs
+**/hivedata
+**/*.log

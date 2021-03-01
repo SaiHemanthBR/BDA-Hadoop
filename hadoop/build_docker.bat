@@ -1,0 +1,1 @@
+docker build --tag saihemanthbr/hadoop --file docker/Dockerfile .

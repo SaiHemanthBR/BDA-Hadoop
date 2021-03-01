@@ -1,0 +1,32 @@
+Douglass Read Cutting is a software designer and advocate and creator of open-source search technology. He founded Lucene and, with Mike Cafarella, Nutch, both open-source search technology projects which are now managed through the Apache Software Foundation. Cutting and Cafarella are also the co-founders of Apache Hadoop.
+
+
+== Education and early career ==
+Cutting holds a bachelor's degree from Stanford University.Prior to developing Lucene, Cutting held search technology positions at Xerox PARC where he worked on the Scatter/Gather algorithm and on computational stylistics. He also worked at Excite, where he was one of the chief designers of the search engine, and Apple Inc., where he was the primary author of the V-Twin text search framework.
+
+
+== Open source projects ==
+Lucene, a search indexer, and Nutch, a spider or crawler, are the two key components of an open-source general search platform, which first crawls the Web for content, and then structures it into a searchable index. Cutting's leadership of these two projects extended the concepts and capabilities of general open-source software projects such as Linux and MySQL into the vertical domain of search. In a 2017 article, Cutting was quoted with the statement, "open source is a requirement for business."
+
+
+== Use of MapReduce paradigm ==
+In December 2004, Google Research published a paper on the MapReduce algorithm, which allows very large scale computations to be trivially parallelized across large clusters of servers. Cutting and Mike Cafarella, realizing the importance of this paper to extending Lucene into the realm of extremely large search problems, created the open-source Hadoop framework that allows applications based on the MapReduce paradigm to be run on large clusters of commodity hardware. Cutting was an employee of Yahoo!, where he led the Hadoop project full-time. He later went on to work for Cloudera.
+
+
+== Open source foundations and awards ==
+In July 2009, Cutting was elected to the board of directors of the Apache Software Foundation, and in September 2010, he was elected its chairman.
+In 2015, O'Reilly awarded an open source award to Cutting.
+
+
+== References ==
+
+
+== External links ==
+"Doug Cutting's blog".
+An interview with Doug Cutting
+Video interview of Doug Cutting
+Audio interview with Doug Cutting
+Doug Cutting's publications and patents
+Doug Cutting joins Yahoo!
+Blog post by Tom White about Doug Cutting creating Hadoop Note that this post was written while Hadoop was still an unnamed spinoff of Nutch. Tom updates his earlier post with the Hadoop name here.
+Article co-authored by Doug Cutting in ACM Queue, 'Building Nutch: Open Source Search'
