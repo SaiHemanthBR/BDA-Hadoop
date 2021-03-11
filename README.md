@@ -26,7 +26,7 @@ Well, the second best way is to use Docker. It's only 3 steps
       Windows users (others), run the following the command:
       > *Note: Always run the following commands from the same working directory. It will create two directories `workspace` and `dfsdata` which are used by docker. (Recommended to run in C:/ drive)*
       ```
-      docker run --name hadoop --rm -d -p 9870:9870 -p 8088:8088 -v "%cd%"/workspace:"/home/hdoop/workspace" -v "%cd%"/dfsdata:"/home/hdoop/dfsdata" -v "%cd%"/hivedata:"/home/hdoop/hivedata" saihemanthbr/hadoop
+      docker run --name hadoop --rm -it -p 9870:9870 -p 8088:8088 -v "%cd%"/workspace:"/home/hdoop/workspace" -v "%cd%"/dfsdata:"/home/hdoop/dfsdata" -v "%cd%"/hivedata:"/home/hdoop/hivedata" saihemanthbr/hadoop
       ```
       Its a single line. You can save it to a .bat file and run that file
       ([Click here to download](https://gist.github.com/SaiHemanthBR/f765395e751b3813ca3287844816ce78#file-run_hadoop-bat))
